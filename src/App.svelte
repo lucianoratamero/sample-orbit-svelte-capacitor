@@ -15,8 +15,18 @@
 
   async function getCurrentPosition() {
     const { Geolocation } = Plugins;
-    const res = await Geolocation.getCurrentPosition();
-    loc = res;
+    try {
+      const res = await Geolocation.getCurrentPosition();
+      loc = res;
+    } catch (e) {
+      console.log(e);
+      loc = {
+        coords: {
+          latitude: "Couldn't get location data",
+          longitude: "Couldn't get location data",
+        },
+      };
+    }
   }
 
   async function readDummyTextFile() {
