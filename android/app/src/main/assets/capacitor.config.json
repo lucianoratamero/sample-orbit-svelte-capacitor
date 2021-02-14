@@ -12,7 +12,7 @@
   "cordova": {},
   "linuxAndroidStudioPath": "/opt/android-studio/bin/studio.sh",
   "server": {
-    "url": "https://www.ratamero.com",
+    "url": "http://192.168.0.16:5001",
     "cleartext": true
   }
 }
