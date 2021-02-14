@@ -1,0 +1,18 @@
+{
+  "appId": "com.hello.svelte",
+  "appName": "Hello Svelte",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "public",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {},
+  "linuxAndroidStudioPath": "/opt/android-studio/bin/studio.sh",
+  "server": {
+    "url": "https://www.ratamero.com",
+    "cleartext": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "appId": "com.hello.svelte",
+  "appName": "Hello Svelte",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "public",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {},
+  "linuxAndroidStudioPath": "/opt/android-studio/bin/studio.sh",
+  "server": {
+    "url": "http://192.168.0.34:5001",
+    "cleartext": true
+  }
+}
